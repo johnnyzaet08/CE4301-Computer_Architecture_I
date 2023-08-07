@@ -1,0 +1,6 @@
+En la siguiente carpeta se encuentra el archivo en word y PDF de la investigación realizada.
+
+Por otra parte se encuentre el .bin el cual contiene todo el programa en emsamblador debidamente compilado.
+Para poder abrir el archivo .s se recomienda tener el executable del simulador de RISC-V, luego de esto cargar el archivo .s
+
+En este archivo, podrá encontrar todo el código ensamblador correspondiente para llegar a la solución deseada, en la sección de memoeria desde la dirreción 0x100 podrá encontrar los valores de words guardadas según corresponda al aplicar el polinomio.
