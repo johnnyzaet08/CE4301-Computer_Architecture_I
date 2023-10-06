@@ -1,0 +1,13 @@
+@ Comprobar xnew = xaux
+    mov r1, #0
+    cmp r8, r10                 @ Compare xnew (r8) with xaux (r10)
+    moveq r1, #1                @ If xnew = xaux, set r1 to 1
+        @ Comprobar ynew = yaux
+    mov r2, #0
+    cmp r9, r11                 @ Compare xnew (r9) with xaux (r11)
+    moveq r2, #1                @ If ynew = yaux, set r2 to 1
+        @ Comprobar si r11 y r10 = 1
+    and r10, r10, r11
+    cmp r10, #1                 @ Compare if r10 = 1
+    beq copy_pixel      @ Branch if both conditions are true
+    b   loop_end_y
