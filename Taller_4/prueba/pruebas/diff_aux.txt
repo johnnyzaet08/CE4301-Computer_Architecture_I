@@ -1,0 +1,44 @@
+-Total Power Consumption: 57.7939
++Total Power Consumption: 113.283
+-Int ALU Power: 1.16503  (2.09%)
+-FP ALU Power: 3.57026  (6.4%)
++Int ALU Power: 9.32026  (8.38%)
++FP ALU Power: 28.5621  (25.7%)
+-avg_alu_power                4.7353 # avg power usage of alu
+-avg_falu_power               3.5703 # avg power usage of falu
++avg_alu_power               37.8824 # avg power usage of alu
++avg_falu_power              28.5621 # avg power usage of falu
+-total_power            3976431.5994 # total power per cycle
+-avg_total_power_cycle       55.7939 # average total power per cycle
+-avg_total_power_cycle_nofp_nod2      48.0145 # average total power per cycle
+-avg_total_power_insn        81.5227 # average total power per insn
+-avg_total_power_insn_nofp_nod2      70.1560 # average total power per insn
+-avg_alu_power_cc1            0.6673 # avg power usage of alu_cc1
+-total_power_cycle_cc1   832806.2881 # total power per cycle_cc1
+-avg_total_power_cycle_cc1      11.6852 # average total power per cycle_cc1
+-avg_total_power_insn_cc1      17.0737 # average total power per insn_cc1
++total_power            6254996.0864 # total power per cycle
++avg_total_power_cycle      111.2830 # average total power per cycle
++avg_total_power_cycle_nofp_nod2      78.5118 # average total power per cycle
++avg_total_power_insn       132.9690 # average total power per insn
++avg_total_power_insn_nofp_nod2      93.8116 # average total power per insn
++avg_alu_power_cc1            3.2405 # avg power usage of alu_cc1
++total_power_cycle_cc1   845576.9120 # total power per cycle_cc1
++avg_total_power_cycle_cc1      15.0437 # average total power per cycle_cc1
++avg_total_power_insn_cc1      17.9753 # average total power per insn_cc1
+-avg_alu_power_cc2            0.6791 # avg power usage of alu_cc2
+-total_power_cycle_cc2   361055.8499 # total power per cycle_cc2
+-avg_total_power_cycle_cc2       5.0660 # average total power per cycle_cc2
+-avg_total_power_insn_cc2       7.4022 # average total power per insn_cc2
+-avg_alu_power_cc3            1.0859 # avg power usage of alu_cc3
+-total_power_cycle_cc3   669624.3320 # total power per cycle_cc3
+-avg_total_power_cycle_cc3       9.3956 # average total power per cycle_cc3
+-avg_total_power_insn_cc3      13.7283 # average total power per insn_cc3
++avg_alu_power_cc2            0.8898 # avg power usage of alu_cc2
++total_power_cycle_cc2   369278.4902 # total power per cycle_cc2
++avg_total_power_cycle_cc2       6.5699 # average total power per cycle_cc2
++avg_total_power_insn_cc2       7.8501 # average total power per insn_cc2
++avg_alu_power_cc3            4.3540 # avg power usage of alu_cc3
++total_power_cycle_cc3   906165.1815 # total power per cycle_cc3
++avg_total_power_cycle_cc3      16.1216 # average total power per cycle_cc3
++avg_total_power_insn_cc3      19.2633 # average total power per insn_cc3
