@@ -1,0 +1,33 @@
+Para un mejor entendimiento te proporcionaré hasta el momento:
+
+Archivo original (stats.txt):
+- system.cpu.dcache.overallMissRate::cpu.data     0.031720                       # miss rate for overall accesses (Ratio)
+- system.cpu.dcache.overallMissRate::total     0.031720                       # miss rate for overall accesses (Ratio)
+- system.cpu.fetchStats0.fetchRate             0.207272                       # Number of inst fetches per cycle Count/Cycle))
+- system.l2.overallMissRate::cpu.inst                 1                       # miss rate for overall accesses (Ratio)
+- system.l2.overallMissRate::cpu.data          0.998976                       # miss rate for overall accesses (Ratio)
+- system.l2.overallMissRate::total             0.999348                       # miss rate for overall accesses (Ratio)
+
+Archivo L1D_Size (stats_L1DSize.txt):
+- system.cpu.dcache.overallMissRate::cpu.data     0.031688                       # miss rate for overall accesses (Ratio)
+- system.cpu.dcache.overallMissRate::total     0.031688                       # miss rate for overall accesses (Ratio)
+- system.cpu.fetchStats0.fetchRate             0.207272                       # Number of inst fetches per cycle (Count/Cycle))
+- system.l2.overallMissRate::cpu.inst                 1                       # miss rate for overall accesses (Ratio)
+- system.l2.overallMissRate::cpu.data                 1                       # miss rate for overall accesses (Ratio)
+- system.l2.overallMissRate::total                    1                       # miss rate for overall accesses (Ratio)
+
+Archivo L1D_Assoc (stats_L1DAssoc.txt):
+- system.cpu.dcache.overallMissRate::cpu.data     0.031688                       # miss rate for overall accesses (Ratio)
+- system.cpu.dcache.overallMissRate::total     0.031688                       # miss rate for overall accesses (Ratio)
+- system.cpu.fetchStats0.fetchRate             0.207272                       # Number of inst fetches per cycle (Count/Cycle))
+- system.l2.overallMissRate::cpu.inst                 1                       # miss rate for overall accesses (Ratio)
+- system.l2.overallMissRate::cpu.data                 1                       # miss rate for overall accesses (Ratio)
+- system.l2.overallMissRate::total                    1                       # miss rate for overall accesses (Ratio)
+
+Archivo L2_Size (stats_L2Size.txt):
+- system.cpu.dcache.overallMissRate::cpu.data     0.031720                       # miss rate for overall accesses (Ratio)
+- system.cpu.dcache.overallMissRate::total     0.031720                       # miss rate for overall accesses (Ratio)
+- system.cpu.fetchStats0.fetchRate             0.207272                       # Number of inst fetches per cycle ((Count/Cycle))
+- system.l2.overallMissRate::cpu.inst                 1                       # miss rate for overall accesses (Ratio)
+- system.l2.overallMissRate::cpu.data          0.998976                       # miss rate for overall accesses (Ratio)
+- system.l2.overallMissRate::total             0.999348                       # miss rate for overall accesses (Ratio)
