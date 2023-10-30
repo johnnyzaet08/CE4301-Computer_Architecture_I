@@ -1,0 +1,26 @@
+7,9c7,9
+< hostSeconds                                      0.31                       # Real time elapsed on the host (Second)
+< hostTickRate                               1059083831                       # The number of ticks simulated per host second (ticks/s) ((Tick/Second))
+< hostMemory                                     690584                       # Number of bytes of host memory used (Byte)
+---
+> hostSeconds                                      0.34                       # Real time elapsed on the host (Second)
+> hostTickRate                                979608869                       # The number of ticks simulated per host second (ticks/s) ((Tick/Second))
+> hostMemory                                     701976                       # Number of bytes of host memory used (Byte)
+12,13c12,13
+< hostInstRate                                   438693                       # Simulator instruction rate (inst/s) ((Count/Second))
+< hostOpRate                                     796711                       # Simulator op (including micro ops) rate (op/s) ((Count/Second))
+---
+> hostInstRate                                   405788                       # Simulator instruction rate (inst/s) ((Count/Second))
+> hostOpRate                                     736951                       # Simulator op (including micro ops) rate (op/s) ((Count/Second))
+549,551c549,551
+< system.l2.tags.avgOccs::cpu.inst             0.023042                       # Average percentage of cache occupancy ((Ratio/Tick))
+< system.l2.tags.avgOccs::cpu.data             0.031754                       # Average percentage of cache occupancy ((Ratio/Tick))
+< system.l2.tags.avgOccs::total                0.054795                       # Average percentage of cache occupancy ((Ratio/Tick))
+---
+> system.l2.tags.avgOccs::cpu.inst             0.005760                       # Average percentage of cache occupancy ((Ratio/Tick))
+> system.l2.tags.avgOccs::cpu.data             0.007938                       # Average percentage of cache occupancy ((Ratio/Tick))
+> system.l2.tags.avgOccs::total                0.013699                       # Average percentage of cache occupancy ((Ratio/Tick))
+556c556
+< system.l2.tags.ratioOccsTaskId::1024         0.093506                       # Ratio of occupied blocks and all blocks, per task id (Ratio)
+---
+> system.l2.tags.ratioOccsTaskId::1024         0.023376                       # Ratio of occupied blocks and all blocks, per task id (Ratio)

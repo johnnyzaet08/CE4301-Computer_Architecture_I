@@ -1,0 +1,482 @@
+8,9c8,9
+< hostTickRate                               1059083831                       # The number of ticks simulated per host second (ticks/s) ((Tick/Second))
+< hostMemory                                     690584                       # Number of bytes of host memory used (Byte)
+---
+> hostTickRate                               1067804232                       # The number of ticks simulated per host second (ticks/s) ((Tick/Second))
+> hostMemory                                     689556                       # Number of bytes of host memory used (Byte)
+12,13c12,13
+< hostInstRate                                   438693                       # Simulator instruction rate (inst/s) ((Count/Second))
+< hostOpRate                                     796711                       # Simulator op (including micro ops) rate (op/s) ((Count/Second))
+---
+> hostInstRate                                   442233                       # Simulator instruction rate (inst/s) ((Count/Second))
+> hostOpRate                                     803127                       # Simulator op (including micro ops) rate (op/s) ((Count/Second))
+117,128c117,128
+< system.cpu.dcache.demandHits::cpu.data          29793                       # number of demand (read+write) hits (Count)
+< system.cpu.dcache.demandHits::total             29793                       # number of demand (read+write) hits (Count)
+< system.cpu.dcache.overallHits::cpu.data         29793                       # number of overall hits (Count)
+< system.cpu.dcache.overallHits::total            29793                       # number of overall hits (Count)
+< system.cpu.dcache.demandMisses::cpu.data          976                       # number of demand (read+write) misses (Count)
+< system.cpu.dcache.demandMisses::total             976                       # number of demand (read+write) misses (Count)
+< system.cpu.dcache.overallMisses::cpu.data          976                       # number of overall misses (Count)
+< system.cpu.dcache.overallMisses::total            976                       # number of overall misses (Count)
+< system.cpu.dcache.demandMissLatency::cpu.data     76661500                       # number of demand (read+write) miss ticks (Tick)
+< system.cpu.dcache.demandMissLatency::total     76661500                       # number of demand (read+write) miss ticks (Tick)
+< system.cpu.dcache.overallMissLatency::cpu.data     76661500                       # number of overall miss ticks (Tick)
+< system.cpu.dcache.overallMissLatency::total     76661500                       # number of overall miss ticks (Tick)
+---
+> system.cpu.dcache.demandHits::cpu.data          29794                       # number of demand (read+write) hits (Count)
+> system.cpu.dcache.demandHits::total             29794                       # number of demand (read+write) hits (Count)
+> system.cpu.dcache.overallHits::cpu.data         29794                       # number of overall hits (Count)
+> system.cpu.dcache.overallHits::total            29794                       # number of overall hits (Count)
+> system.cpu.dcache.demandMisses::cpu.data          975                       # number of demand (read+write) misses (Count)
+> system.cpu.dcache.demandMisses::total             975                       # number of demand (read+write) misses (Count)
+> system.cpu.dcache.overallMisses::cpu.data          975                       # number of overall misses (Count)
+> system.cpu.dcache.overallMisses::total            975                       # number of overall misses (Count)
+> system.cpu.dcache.demandMissLatency::cpu.data     76648500                       # number of demand (read+write) miss ticks (Tick)
+> system.cpu.dcache.demandMissLatency::total     76648500                       # number of demand (read+write) miss ticks (Tick)
+> system.cpu.dcache.overallMissLatency::cpu.data     76648500                       # number of overall miss ticks (Tick)
+> system.cpu.dcache.overallMissLatency::total     76648500                       # number of overall miss ticks (Tick)
+133,140c133,140
+< system.cpu.dcache.demandMissRate::cpu.data     0.031720                       # miss rate for demand accesses (Ratio)
+< system.cpu.dcache.demandMissRate::total      0.031720                       # miss rate for demand accesses (Ratio)
+< system.cpu.dcache.overallMissRate::cpu.data     0.031720                       # miss rate for overall accesses (Ratio)
+< system.cpu.dcache.overallMissRate::total     0.031720                       # miss rate for overall accesses (Ratio)
+< system.cpu.dcache.demandAvgMissLatency::cpu.data 78546.618852                       # average overall miss latency in ticks ((Tick/Count))
+< system.cpu.dcache.demandAvgMissLatency::total 78546.618852                       # average overall miss latency in ticks ((Tick/Count))
+< system.cpu.dcache.overallAvgMissLatency::cpu.data 78546.618852                       # average overall miss latency ((Tick/Count))
+< system.cpu.dcache.overallAvgMissLatency::total 78546.618852                       # average overall miss latency ((Tick/Count))
+---
+> system.cpu.dcache.demandMissRate::cpu.data     0.031688                       # miss rate for demand accesses (Ratio)
+> system.cpu.dcache.demandMissRate::total      0.031688                       # miss rate for demand accesses (Ratio)
+> system.cpu.dcache.overallMissRate::cpu.data     0.031688                       # miss rate for overall accesses (Ratio)
+> system.cpu.dcache.overallMissRate::total     0.031688                       # miss rate for overall accesses (Ratio)
+> system.cpu.dcache.demandAvgMissLatency::cpu.data 78613.846154                       # average overall miss latency in ticks ((Tick/Count))
+> system.cpu.dcache.demandAvgMissLatency::total 78613.846154                       # average overall miss latency in ticks ((Tick/Count))
+> system.cpu.dcache.overallAvgMissLatency::cpu.data 78613.846154                       # average overall miss latency ((Tick/Count))
+> system.cpu.dcache.overallAvgMissLatency::total 78613.846154                       # average overall miss latency ((Tick/Count))
+147,165c147,163
+< system.cpu.dcache.writebacks::writebacks            3                       # number of writebacks (Count)
+< system.cpu.dcache.writebacks::total                 3                       # number of writebacks (Count)
+< system.cpu.dcache.demandMshrMisses::cpu.data          976                       # number of demand (read+write) MSHR misses (Count)
+< system.cpu.dcache.demandMshrMisses::total          976                       # number of demand (read+write) MSHR misses (Count)
+< system.cpu.dcache.overallMshrMisses::cpu.data          976                       # number of overall MSHR misses (Count)
+< system.cpu.dcache.overallMshrMisses::total          976                       # number of overall MSHR misses (Count)
+< system.cpu.dcache.demandMshrMissLatency::cpu.data     75685500                       # number of demand (read+write) MSHR miss ticks (Tick)
+< system.cpu.dcache.demandMshrMissLatency::total     75685500                       # number of demand (read+write) MSHR miss ticks (Tick)
+< system.cpu.dcache.overallMshrMissLatency::cpu.data     75685500                       # number of overall MSHR miss ticks (Tick)
+< system.cpu.dcache.overallMshrMissLatency::total     75685500                       # number of overall MSHR miss ticks (Tick)
+< system.cpu.dcache.demandMshrMissRate::cpu.data     0.031720                       # mshr miss ratio for demand accesses (Ratio)
+< system.cpu.dcache.demandMshrMissRate::total     0.031720                       # mshr miss ratio for demand accesses (Ratio)
+< system.cpu.dcache.overallMshrMissRate::cpu.data     0.031720                       # mshr miss ratio for overall accesses (Ratio)
+< system.cpu.dcache.overallMshrMissRate::total     0.031720                       # mshr miss ratio for overall accesses (Ratio)
+< system.cpu.dcache.demandAvgMshrMissLatency::cpu.data 77546.618852                       # average overall mshr miss latency ((Tick/Count))
+< system.cpu.dcache.demandAvgMshrMissLatency::total 77546.618852                       # average overall mshr miss latency ((Tick/Count))
+< system.cpu.dcache.overallAvgMshrMissLatency::cpu.data 77546.618852                       # average overall mshr miss latency ((Tick/Count))
+< system.cpu.dcache.overallAvgMshrMissLatency::total 77546.618852                       # average overall mshr miss latency ((Tick/Count))
+< system.cpu.dcache.replacements                      4                       # number of replacements (Count)
+---
+> system.cpu.dcache.demandMshrMisses::cpu.data          975                       # number of demand (read+write) MSHR misses (Count)
+> system.cpu.dcache.demandMshrMisses::total          975                       # number of demand (read+write) MSHR misses (Count)
+> system.cpu.dcache.overallMshrMisses::cpu.data          975                       # number of overall MSHR misses (Count)
+> system.cpu.dcache.overallMshrMisses::total          975                       # number of overall MSHR misses (Count)
+> system.cpu.dcache.demandMshrMissLatency::cpu.data     75673500                       # number of demand (read+write) MSHR miss ticks (Tick)
+> system.cpu.dcache.demandMshrMissLatency::total     75673500                       # number of demand (read+write) MSHR miss ticks (Tick)
+> system.cpu.dcache.overallMshrMissLatency::cpu.data     75673500                       # number of overall MSHR miss ticks (Tick)
+> system.cpu.dcache.overallMshrMissLatency::total     75673500                       # number of overall MSHR miss ticks (Tick)
+> system.cpu.dcache.demandMshrMissRate::cpu.data     0.031688                       # mshr miss ratio for demand accesses (Ratio)
+> system.cpu.dcache.demandMshrMissRate::total     0.031688                       # mshr miss ratio for demand accesses (Ratio)
+> system.cpu.dcache.overallMshrMissRate::cpu.data     0.031688                       # mshr miss ratio for overall accesses (Ratio)
+> system.cpu.dcache.overallMshrMissRate::total     0.031688                       # mshr miss ratio for overall accesses (Ratio)
+> system.cpu.dcache.demandAvgMshrMissLatency::cpu.data 77613.846154                       # average overall mshr miss latency ((Tick/Count))
+> system.cpu.dcache.demandAvgMshrMissLatency::total 77613.846154                       # average overall mshr miss latency ((Tick/Count))
+> system.cpu.dcache.overallAvgMshrMissLatency::cpu.data 77613.846154                       # average overall mshr miss latency ((Tick/Count))
+> system.cpu.dcache.overallAvgMshrMissLatency::total 77613.846154                       # average overall mshr miss latency ((Tick/Count))
+> system.cpu.dcache.replacements                      2                       # number of replacements (Count)
+190,195c188,193
+< system.cpu.dcache.ReadReq.hits::cpu.data        19726                       # number of ReadReq hits (Count)
+< system.cpu.dcache.ReadReq.hits::total           19726                       # number of ReadReq hits (Count)
+< system.cpu.dcache.ReadReq.misses::cpu.data          832                       # number of ReadReq misses (Count)
+< system.cpu.dcache.ReadReq.misses::total           832                       # number of ReadReq misses (Count)
+< system.cpu.dcache.ReadReq.missLatency::cpu.data     65151500                       # number of ReadReq miss ticks (Tick)
+< system.cpu.dcache.ReadReq.missLatency::total     65151500                       # number of ReadReq miss ticks (Tick)
+---
+> system.cpu.dcache.ReadReq.hits::cpu.data        19727                       # number of ReadReq hits (Count)
+> system.cpu.dcache.ReadReq.hits::total           19727                       # number of ReadReq hits (Count)
+> system.cpu.dcache.ReadReq.misses::cpu.data          831                       # number of ReadReq misses (Count)
+> system.cpu.dcache.ReadReq.misses::total           831                       # number of ReadReq misses (Count)
+> system.cpu.dcache.ReadReq.missLatency::cpu.data     65138500                       # number of ReadReq miss ticks (Tick)
+> system.cpu.dcache.ReadReq.missLatency::total     65138500                       # number of ReadReq miss ticks (Tick)
+198,209c196,207
+< system.cpu.dcache.ReadReq.missRate::cpu.data     0.040471                       # miss rate for ReadReq accesses (Ratio)
+< system.cpu.dcache.ReadReq.missRate::total     0.040471                       # miss rate for ReadReq accesses (Ratio)
+< system.cpu.dcache.ReadReq.avgMissLatency::cpu.data 78307.091346                       # average ReadReq miss latency ((Tick/Count))
+< system.cpu.dcache.ReadReq.avgMissLatency::total 78307.091346                       # average ReadReq miss latency ((Tick/Count))
+< system.cpu.dcache.ReadReq.mshrMisses::cpu.data          832                       # number of ReadReq MSHR misses (Count)
+< system.cpu.dcache.ReadReq.mshrMisses::total          832                       # number of ReadReq MSHR misses (Count)
+< system.cpu.dcache.ReadReq.mshrMissLatency::cpu.data     64319500                       # number of ReadReq MSHR miss ticks (Tick)
+< system.cpu.dcache.ReadReq.mshrMissLatency::total     64319500                       # number of ReadReq MSHR miss ticks (Tick)
+< system.cpu.dcache.ReadReq.mshrMissRate::cpu.data     0.040471                       # mshr miss rate for ReadReq accesses (Ratio)
+< system.cpu.dcache.ReadReq.mshrMissRate::total     0.040471                       # mshr miss rate for ReadReq accesses (Ratio)
+< system.cpu.dcache.ReadReq.avgMshrMissLatency::cpu.data 77307.091346                       # average ReadReq mshr miss latency ((Tick/Count))
+< system.cpu.dcache.ReadReq.avgMshrMissLatency::total 77307.091346                       # average ReadReq mshr miss latency ((Tick/Count))
+---
+> system.cpu.dcache.ReadReq.missRate::cpu.data     0.040422                       # miss rate for ReadReq accesses (Ratio)
+> system.cpu.dcache.ReadReq.missRate::total     0.040422                       # miss rate for ReadReq accesses (Ratio)
+> system.cpu.dcache.ReadReq.avgMissLatency::cpu.data 78385.679904                       # average ReadReq miss latency ((Tick/Count))
+> system.cpu.dcache.ReadReq.avgMissLatency::total 78385.679904                       # average ReadReq miss latency ((Tick/Count))
+> system.cpu.dcache.ReadReq.mshrMisses::cpu.data          831                       # number of ReadReq MSHR misses (Count)
+> system.cpu.dcache.ReadReq.mshrMisses::total          831                       # number of ReadReq MSHR misses (Count)
+> system.cpu.dcache.ReadReq.mshrMissLatency::cpu.data     64307500                       # number of ReadReq MSHR miss ticks (Tick)
+> system.cpu.dcache.ReadReq.mshrMissLatency::total     64307500                       # number of ReadReq MSHR miss ticks (Tick)
+> system.cpu.dcache.ReadReq.mshrMissRate::cpu.data     0.040422                       # mshr miss rate for ReadReq accesses (Ratio)
+> system.cpu.dcache.ReadReq.mshrMissRate::total     0.040422                       # mshr miss rate for ReadReq accesses (Ratio)
+> system.cpu.dcache.ReadReq.avgMshrMissLatency::cpu.data 77385.679904                       # average ReadReq mshr miss latency ((Tick/Count))
+> system.cpu.dcache.ReadReq.avgMshrMissLatency::total 77385.679904                       # average ReadReq mshr miss latency ((Tick/Count))
+231c229
+< system.cpu.dcache.tags.tagsInUse           518.677975                       # Average ticks per tags in use ((Tick/Count))
+---
+> system.cpu.dcache.tags.tagsInUse           519.774906                       # Average ticks per tags in use ((Tick/Count))
+233,234c231,232
+< system.cpu.dcache.tags.sampledRefs                977                       # Sample count of references to valid blocks. (Count)
+< system.cpu.dcache.tags.avgRefs              31.538383                       # Average number of references to valid blocks. ((Count/Count))
+---
+> system.cpu.dcache.tags.sampledRefs                976                       # Sample count of references to valid blocks. (Count)
+> system.cpu.dcache.tags.avgRefs              31.570697                       # Average number of references to valid blocks. ((Count/Count))
+236,239c234,237
+< system.cpu.dcache.tags.occupancies::cpu.data   518.677975                       # Average occupied blocks per tick, per requestor ((Count/Tick))
+< system.cpu.dcache.tags.avgOccs::cpu.data     0.253261                       # Average percentage of cache occupancy ((Ratio/Tick))
+< system.cpu.dcache.tags.avgOccs::total        0.253261                       # Average percentage of cache occupancy ((Ratio/Tick))
+< system.cpu.dcache.tags.occupanciesTaskId::1024          973                       # Occupied blocks per task id (Count)
+---
+> system.cpu.dcache.tags.occupancies::cpu.data   519.774906                       # Average occupied blocks per tick, per requestor ((Count/Tick))
+> system.cpu.dcache.tags.avgOccs::cpu.data     0.253796                       # Average percentage of cache occupancy ((Ratio/Tick))
+> system.cpu.dcache.tags.avgOccs::total        0.253796                       # Average percentage of cache occupancy ((Ratio/Tick))
+> system.cpu.dcache.tags.occupanciesTaskId::1024          974                       # Occupied blocks per task id (Count)
+241,245c239,243
+< system.cpu.dcache.tags.ageTaskId_1024::1          256                       # Occupied blocks per task id, per block age (Count)
+< system.cpu.dcache.tags.ageTaskId_1024::2          706                       # Occupied blocks per task id, per block age (Count)
+< system.cpu.dcache.tags.ratioOccsTaskId::1024     0.475098                       # Ratio of occupied blocks and all blocks, per task id (Ratio)
+< system.cpu.dcache.tags.tagAccesses              62603                       # Number of tag accesses (Count)
+< system.cpu.dcache.tags.dataAccesses             62603                       # Number of data accesses (Count)
+---
+> system.cpu.dcache.tags.ageTaskId_1024::1          255                       # Occupied blocks per task id, per block age (Count)
+> system.cpu.dcache.tags.ageTaskId_1024::2          708                       # Occupied blocks per task id, per block age (Count)
+> system.cpu.dcache.tags.ratioOccsTaskId::1024     0.475586                       # Ratio of occupied blocks and all blocks, per task id (Ratio)
+> system.cpu.dcache.tags.tagAccesses             124228                       # Number of tag accesses (Count)
+> system.cpu.dcache.tags.dataAccesses            124228                       # Number of data accesses (Count)
+300,303c298,301
+< system.cpu.icache.demandMissLatency::cpu.inst     44181500                       # number of demand (read+write) miss ticks (Tick)
+< system.cpu.icache.demandMissLatency::total     44181500                       # number of demand (read+write) miss ticks (Tick)
+< system.cpu.icache.overallMissLatency::cpu.inst     44181500                       # number of overall miss ticks (Tick)
+< system.cpu.icache.overallMissLatency::total     44181500                       # number of overall miss ticks (Tick)
+---
+> system.cpu.icache.demandMissLatency::cpu.inst     44193500                       # number of demand (read+write) miss ticks (Tick)
+> system.cpu.icache.demandMissLatency::total     44193500                       # number of demand (read+write) miss ticks (Tick)
+> system.cpu.icache.overallMissLatency::cpu.inst     44193500                       # number of overall miss ticks (Tick)
+> system.cpu.icache.overallMissLatency::total     44193500                       # number of overall miss ticks (Tick)
+312,315c310,313
+< system.cpu.icache.demandAvgMissLatency::cpu.inst 79463.129496                       # average overall miss latency in ticks ((Tick/Count))
+< system.cpu.icache.demandAvgMissLatency::total 79463.129496                       # average overall miss latency in ticks ((Tick/Count))
+< system.cpu.icache.overallAvgMissLatency::cpu.inst 79463.129496                       # average overall miss latency ((Tick/Count))
+< system.cpu.icache.overallAvgMissLatency::total 79463.129496                       # average overall miss latency ((Tick/Count))
+---
+> system.cpu.icache.demandAvgMissLatency::cpu.inst 79484.712230                       # average overall miss latency in ticks ((Tick/Count))
+> system.cpu.icache.demandAvgMissLatency::total 79484.712230                       # average overall miss latency in ticks ((Tick/Count))
+> system.cpu.icache.overallAvgMissLatency::cpu.inst 79484.712230                       # average overall miss latency ((Tick/Count))
+> system.cpu.icache.overallAvgMissLatency::total 79484.712230                       # average overall miss latency ((Tick/Count))
+328,331c326,329
+< system.cpu.icache.demandMshrMissLatency::cpu.inst     43625500                       # number of demand (read+write) MSHR miss ticks (Tick)
+< system.cpu.icache.demandMshrMissLatency::total     43625500                       # number of demand (read+write) MSHR miss ticks (Tick)
+< system.cpu.icache.overallMshrMissLatency::cpu.inst     43625500                       # number of overall MSHR miss ticks (Tick)
+< system.cpu.icache.overallMshrMissLatency::total     43625500                       # number of overall MSHR miss ticks (Tick)
+---
+> system.cpu.icache.demandMshrMissLatency::cpu.inst     43637500                       # number of demand (read+write) MSHR miss ticks (Tick)
+> system.cpu.icache.demandMshrMissLatency::total     43637500                       # number of demand (read+write) MSHR miss ticks (Tick)
+> system.cpu.icache.overallMshrMissLatency::cpu.inst     43637500                       # number of overall MSHR miss ticks (Tick)
+> system.cpu.icache.overallMshrMissLatency::total     43637500                       # number of overall MSHR miss ticks (Tick)
+336,339c334,337
+< system.cpu.icache.demandAvgMshrMissLatency::cpu.inst 78463.129496                       # average overall mshr miss latency ((Tick/Count))
+< system.cpu.icache.demandAvgMshrMissLatency::total 78463.129496                       # average overall mshr miss latency ((Tick/Count))
+< system.cpu.icache.overallAvgMshrMissLatency::cpu.inst 78463.129496                       # average overall mshr miss latency ((Tick/Count))
+< system.cpu.icache.overallAvgMshrMissLatency::total 78463.129496                       # average overall mshr miss latency ((Tick/Count))
+---
+> system.cpu.icache.demandAvgMshrMissLatency::cpu.inst 78484.712230                       # average overall mshr miss latency ((Tick/Count))
+> system.cpu.icache.demandAvgMshrMissLatency::total 78484.712230                       # average overall mshr miss latency ((Tick/Count))
+> system.cpu.icache.overallAvgMshrMissLatency::cpu.inst 78484.712230                       # average overall mshr miss latency ((Tick/Count))
+> system.cpu.icache.overallAvgMshrMissLatency::total 78484.712230                       # average overall mshr miss latency ((Tick/Count))
+345,346c343,344
+< system.cpu.icache.ReadReq.missLatency::cpu.inst     44181500                       # number of ReadReq miss ticks (Tick)
+< system.cpu.icache.ReadReq.missLatency::total     44181500                       # number of ReadReq miss ticks (Tick)
+---
+> system.cpu.icache.ReadReq.missLatency::cpu.inst     44193500                       # number of ReadReq miss ticks (Tick)
+> system.cpu.icache.ReadReq.missLatency::total     44193500                       # number of ReadReq miss ticks (Tick)
+351,352c349,350
+< system.cpu.icache.ReadReq.avgMissLatency::cpu.inst 79463.129496                       # average ReadReq miss latency ((Tick/Count))
+< system.cpu.icache.ReadReq.avgMissLatency::total 79463.129496                       # average ReadReq miss latency ((Tick/Count))
+---
+> system.cpu.icache.ReadReq.avgMissLatency::cpu.inst 79484.712230                       # average ReadReq miss latency ((Tick/Count))
+> system.cpu.icache.ReadReq.avgMissLatency::total 79484.712230                       # average ReadReq miss latency ((Tick/Count))
+355,356c353,354
+< system.cpu.icache.ReadReq.mshrMissLatency::cpu.inst     43625500                       # number of ReadReq MSHR miss ticks (Tick)
+< system.cpu.icache.ReadReq.mshrMissLatency::total     43625500                       # number of ReadReq MSHR miss ticks (Tick)
+---
+> system.cpu.icache.ReadReq.mshrMissLatency::cpu.inst     43637500                       # number of ReadReq MSHR miss ticks (Tick)
+> system.cpu.icache.ReadReq.mshrMissLatency::total     43637500                       # number of ReadReq MSHR miss ticks (Tick)
+359,360c357,358
+< system.cpu.icache.ReadReq.avgMshrMissLatency::cpu.inst 78463.129496                       # average ReadReq mshr miss latency ((Tick/Count))
+< system.cpu.icache.ReadReq.avgMshrMissLatency::total 78463.129496                       # average ReadReq mshr miss latency ((Tick/Count))
+---
+> system.cpu.icache.ReadReq.avgMshrMissLatency::cpu.inst 78484.712230                       # average ReadReq mshr miss latency ((Tick/Count))
+> system.cpu.icache.ReadReq.avgMshrMissLatency::total 78484.712230                       # average ReadReq mshr miss latency ((Tick/Count))
+362c360
+< system.cpu.icache.tags.tagsInUse           373.263060                       # Average ticks per tags in use ((Tick/Count))
+---
+> system.cpu.icache.tags.tagsInUse           373.265236                       # Average ticks per tags in use ((Tick/Count))
+367,369c365,367
+< system.cpu.icache.tags.occupancies::cpu.inst   373.263060                       # Average occupied blocks per tick, per requestor ((Count/Tick))
+< system.cpu.icache.tags.avgOccs::cpu.inst     0.182257                       # Average percentage of cache occupancy ((Ratio/Tick))
+< system.cpu.icache.tags.avgOccs::total        0.182257                       # Average percentage of cache occupancy ((Ratio/Tick))
+---
+> system.cpu.icache.tags.occupancies::cpu.inst   373.265236                       # Average occupied blocks per tick, per requestor ((Count/Tick))
+> system.cpu.icache.tags.avgOccs::cpu.inst     0.182258                       # Average percentage of cache occupancy ((Ratio/Tick))
+> system.cpu.icache.tags.avgOccs::total        0.182258                       # Average percentage of cache occupancy ((Ratio/Tick))
+412,415d409
+< system.l2.demandHits::cpu.data                      1                       # number of demand (read+write) hits (Count)
+< system.l2.demandHits::total                         1                       # number of demand (read+write) hits (Count)
+< system.l2.overallHits::cpu.data                     1                       # number of overall hits (Count)
+< system.l2.overallHits::total                        1                       # number of overall hits (Count)
+422c416
+< system.l2.demandMissLatency::cpu.inst        42791500                       # number of demand (read+write) miss ticks (Tick)
+---
+> system.l2.demandMissLatency::cpu.inst        42803500                       # number of demand (read+write) miss ticks (Tick)
+424,425c418,419
+< system.l2.demandMissLatency::total          117100000                       # number of demand (read+write) miss ticks (Tick)
+< system.l2.overallMissLatency::cpu.inst       42791500                       # number of overall miss ticks (Tick)
+---
+> system.l2.demandMissLatency::total          117112000                       # number of demand (read+write) miss ticks (Tick)
+> system.l2.overallMissLatency::cpu.inst       42803500                       # number of overall miss ticks (Tick)
+427c421
+< system.l2.overallMissLatency::total         117100000                       # number of overall miss ticks (Tick)
+---
+> system.l2.overallMissLatency::total         117112000                       # number of overall miss ticks (Tick)
+429,430c423,424
+< system.l2.demandAccesses::cpu.data                977                       # number of demand (read+write) accesses (Count)
+< system.l2.demandAccesses::total                  1533                       # number of demand (read+write) accesses (Count)
+---
+> system.l2.demandAccesses::cpu.data                976                       # number of demand (read+write) accesses (Count)
+> system.l2.demandAccesses::total                  1532                       # number of demand (read+write) accesses (Count)
+432,433c426,427
+< system.l2.overallAccesses::cpu.data               977                       # number of overall (read+write) accesses (Count)
+< system.l2.overallAccesses::total                 1533                       # number of overall (read+write) accesses (Count)
+---
+> system.l2.overallAccesses::cpu.data               976                       # number of overall (read+write) accesses (Count)
+> system.l2.overallAccesses::total                 1532                       # number of overall (read+write) accesses (Count)
+435,436c429,430
+< system.l2.demandMissRate::cpu.data           0.998976                       # miss rate for demand accesses (Ratio)
+< system.l2.demandMissRate::total              0.999348                       # miss rate for demand accesses (Ratio)
+---
+> system.l2.demandMissRate::cpu.data                  1                       # miss rate for demand accesses (Ratio)
+> system.l2.demandMissRate::total                     1                       # miss rate for demand accesses (Ratio)
+438,440c432,434
+< system.l2.overallMissRate::cpu.data          0.998976                       # miss rate for overall accesses (Ratio)
+< system.l2.overallMissRate::total             0.999348                       # miss rate for overall accesses (Ratio)
+< system.l2.demandAvgMissLatency::cpu.inst 76963.129496                       # average overall miss latency in ticks ((Tick/Count))
+---
+> system.l2.overallMissRate::cpu.data                 1                       # miss rate for overall accesses (Ratio)
+> system.l2.overallMissRate::total                    1                       # miss rate for overall accesses (Ratio)
+> system.l2.demandAvgMissLatency::cpu.inst 76984.712230                       # average overall miss latency in ticks ((Tick/Count))
+442,443c436,437
+< system.l2.demandAvgMissLatency::total    76436.031332                       # average overall miss latency in ticks ((Tick/Count))
+< system.l2.overallAvgMissLatency::cpu.inst 76963.129496                       # average overall miss latency ((Tick/Count))
+---
+> system.l2.demandAvgMissLatency::total    76443.864230                       # average overall miss latency in ticks ((Tick/Count))
+> system.l2.overallAvgMissLatency::cpu.inst 76984.712230                       # average overall miss latency ((Tick/Count))
+445c439
+< system.l2.overallAvgMissLatency::total   76436.031332                       # average overall miss latency ((Tick/Count))
+---
+> system.l2.overallAvgMissLatency::total   76443.864230                       # average overall miss latency ((Tick/Count))
+458c452
+< system.l2.demandMshrMissLatency::cpu.inst     37231500                       # number of demand (read+write) MSHR miss ticks (Tick)
+---
+> system.l2.demandMshrMissLatency::cpu.inst     37243500                       # number of demand (read+write) MSHR miss ticks (Tick)
+460,461c454,455
+< system.l2.demandMshrMissLatency::total      101780000                       # number of demand (read+write) MSHR miss ticks (Tick)
+< system.l2.overallMshrMissLatency::cpu.inst     37231500                       # number of overall MSHR miss ticks (Tick)
+---
+> system.l2.demandMshrMissLatency::total      101792000                       # number of demand (read+write) MSHR miss ticks (Tick)
+> system.l2.overallMshrMissLatency::cpu.inst     37243500                       # number of overall MSHR miss ticks (Tick)
+463c457
+< system.l2.overallMshrMissLatency::total     101780000                       # number of overall MSHR miss ticks (Tick)
+---
+> system.l2.overallMshrMissLatency::total     101792000                       # number of overall MSHR miss ticks (Tick)
+465,466c459,460
+< system.l2.demandMshrMissRate::cpu.data       0.998976                       # mshr miss ratio for demand accesses (Ratio)
+< system.l2.demandMshrMissRate::total          0.999348                       # mshr miss ratio for demand accesses (Ratio)
+---
+> system.l2.demandMshrMissRate::cpu.data              1                       # mshr miss ratio for demand accesses (Ratio)
+> system.l2.demandMshrMissRate::total                 1                       # mshr miss ratio for demand accesses (Ratio)
+468,470c462,464
+< system.l2.overallMshrMissRate::cpu.data      0.998976                       # mshr miss ratio for overall accesses (Ratio)
+< system.l2.overallMshrMissRate::total         0.999348                       # mshr miss ratio for overall accesses (Ratio)
+< system.l2.demandAvgMshrMissLatency::cpu.inst 66963.129496                       # average overall mshr miss latency ((Tick/Count))
+---
+> system.l2.overallMshrMissRate::cpu.data             1                       # mshr miss ratio for overall accesses (Ratio)
+> system.l2.overallMshrMissRate::total                1                       # mshr miss ratio for overall accesses (Ratio)
+> system.l2.demandAvgMshrMissLatency::cpu.inst 66984.712230                       # average overall mshr miss latency ((Tick/Count))
+472,473c466,467
+< system.l2.demandAvgMshrMissLatency::total 66436.031332                       # average overall mshr miss latency ((Tick/Count))
+< system.l2.overallAvgMshrMissLatency::cpu.inst 66963.129496                       # average overall mshr miss latency ((Tick/Count))
+---
+> system.l2.demandAvgMshrMissLatency::total 66443.864230                       # average overall mshr miss latency ((Tick/Count))
+> system.l2.overallAvgMshrMissLatency::cpu.inst 66984.712230                       # average overall mshr miss latency ((Tick/Count))
+475c469
+< system.l2.overallAvgMshrMissLatency::total 66436.031332                       # average overall mshr miss latency ((Tick/Count))
+---
+> system.l2.overallAvgMshrMissLatency::total 66443.864230                       # average overall mshr miss latency ((Tick/Count))
+479,480c473,474
+< system.l2.ReadCleanReq.missLatency::cpu.inst     42791500                       # number of ReadCleanReq miss ticks (Tick)
+< system.l2.ReadCleanReq.missLatency::total     42791500                       # number of ReadCleanReq miss ticks (Tick)
+---
+> system.l2.ReadCleanReq.missLatency::cpu.inst     42803500                       # number of ReadCleanReq miss ticks (Tick)
+> system.l2.ReadCleanReq.missLatency::total     42803500                       # number of ReadCleanReq miss ticks (Tick)
+485,486c479,480
+< system.l2.ReadCleanReq.avgMissLatency::cpu.inst 76963.129496                       # average ReadCleanReq miss latency ((Tick/Count))
+< system.l2.ReadCleanReq.avgMissLatency::total 76963.129496                       # average ReadCleanReq miss latency ((Tick/Count))
+---
+> system.l2.ReadCleanReq.avgMissLatency::cpu.inst 76984.712230                       # average ReadCleanReq miss latency ((Tick/Count))
+> system.l2.ReadCleanReq.avgMissLatency::total 76984.712230                       # average ReadCleanReq miss latency ((Tick/Count))
+489,490c483,484
+< system.l2.ReadCleanReq.mshrMissLatency::cpu.inst     37231500                       # number of ReadCleanReq MSHR miss ticks (Tick)
+< system.l2.ReadCleanReq.mshrMissLatency::total     37231500                       # number of ReadCleanReq MSHR miss ticks (Tick)
+---
+> system.l2.ReadCleanReq.mshrMissLatency::cpu.inst     37243500                       # number of ReadCleanReq MSHR miss ticks (Tick)
+> system.l2.ReadCleanReq.mshrMissLatency::total     37243500                       # number of ReadCleanReq MSHR miss ticks (Tick)
+493,494c487,488
+< system.l2.ReadCleanReq.avgMshrMissLatency::cpu.inst 66963.129496                       # average ReadCleanReq mshr miss latency ((Tick/Count))
+< system.l2.ReadCleanReq.avgMshrMissLatency::total 66963.129496                       # average ReadCleanReq mshr miss latency ((Tick/Count))
+---
+> system.l2.ReadCleanReq.avgMshrMissLatency::cpu.inst 66984.712230                       # average ReadCleanReq mshr miss latency ((Tick/Count))
+> system.l2.ReadCleanReq.avgMshrMissLatency::total 66984.712230                       # average ReadCleanReq mshr miss latency ((Tick/Count))
+513,514d506
+< system.l2.ReadSharedReq.hits::cpu.data              1                       # number of ReadSharedReq hits (Count)
+< system.l2.ReadSharedReq.hits::total                 1                       # number of ReadSharedReq hits (Count)
+519,522c511,514
+< system.l2.ReadSharedReq.accesses::cpu.data          832                       # number of ReadSharedReq accesses(hits+misses) (Count)
+< system.l2.ReadSharedReq.accesses::total           832                       # number of ReadSharedReq accesses(hits+misses) (Count)
+< system.l2.ReadSharedReq.missRate::cpu.data     0.998798                       # miss rate for ReadSharedReq accesses (Ratio)
+< system.l2.ReadSharedReq.missRate::total      0.998798                       # miss rate for ReadSharedReq accesses (Ratio)
+---
+> system.l2.ReadSharedReq.accesses::cpu.data          831                       # number of ReadSharedReq accesses(hits+misses) (Count)
+> system.l2.ReadSharedReq.accesses::total           831                       # number of ReadSharedReq accesses(hits+misses) (Count)
+> system.l2.ReadSharedReq.missRate::cpu.data            1                       # miss rate for ReadSharedReq accesses (Ratio)
+> system.l2.ReadSharedReq.missRate::total             1                       # miss rate for ReadSharedReq accesses (Ratio)
+529,530c521,522
+< system.l2.ReadSharedReq.mshrMissRate::cpu.data     0.998798                       # mshr miss rate for ReadSharedReq accesses (Ratio)
+< system.l2.ReadSharedReq.mshrMissRate::total     0.998798                       # mshr miss rate for ReadSharedReq accesses (Ratio)
+---
+> system.l2.ReadSharedReq.mshrMissRate::cpu.data            1                       # mshr miss rate for ReadSharedReq accesses (Ratio)
+> system.l2.ReadSharedReq.mshrMissRate::total            1                       # mshr miss rate for ReadSharedReq accesses (Ratio)
+537,540d528
+< system.l2.WritebackDirty.hits::writebacks            3                       # number of WritebackDirty hits (Count)
+< system.l2.WritebackDirty.hits::total                3                       # number of WritebackDirty hits (Count)
+< system.l2.WritebackDirty.accesses::writebacks            3                       # number of WritebackDirty accesses(hits+misses) (Count)
+< system.l2.WritebackDirty.accesses::total            3                       # number of WritebackDirty accesses(hits+misses) (Count)
+542,543c530,531
+< system.l2.tags.tagsInUse                   897.769302                       # Average ticks per tags in use ((Tick/Count))
+< system.l2.tags.totalRefs                         1544                       # Total number of references to valid blocks. (Count)
+---
+> system.l2.tags.tagsInUse                   897.771839                       # Average ticks per tags in use ((Tick/Count))
+> system.l2.tags.totalRefs                         1541                       # Total number of references to valid blocks. (Count)
+545c533
+< system.l2.tags.avgRefs                       1.007833                       # Average number of references to valid blocks. ((Count/Count))
+---
+> system.l2.tags.avgRefs                       1.005875                       # Average number of references to valid blocks. ((Count/Count))
+547,548c535,536
+< system.l2.tags.occupancies::cpu.inst       377.513022                       # Average occupied blocks per tick, per requestor ((Count/Tick))
+< system.l2.tags.occupancies::cpu.data       520.256280                       # Average occupied blocks per tick, per requestor ((Count/Tick))
+---
+> system.l2.tags.occupancies::cpu.inst       377.515269                       # Average occupied blocks per tick, per requestor ((Count/Tick))
+> system.l2.tags.occupancies::cpu.data       520.256570                       # Average occupied blocks per tick, per requestor ((Count/Tick))
+551c539
+< system.l2.tags.avgOccs::total                0.054795                       # Average percentage of cache occupancy ((Ratio/Tick))
+---
+> system.l2.tags.avgOccs::total                0.054796                       # Average percentage of cache occupancy ((Ratio/Tick))
+557,558c545,546
+< system.l2.tags.tagAccesses                       3076                       # Number of tag accesses (Count)
+< system.l2.tags.dataAccesses                      3076                       # Number of data accesses (Count)
+---
+> system.l2.tags.tagAccesses                       3073                       # Number of tag accesses (Count)
+> system.l2.tags.dataAccesses                      3073                       # Number of data accesses (Count)
+702c690
+< system.mem_ctrls.requestorReadTotalLat::cpu.inst     14529750                       # Per-requestor read total memory access latency (Tick)
+---
+> system.mem_ctrls.requestorReadTotalLat::cpu.inst     14541750                       # Per-requestor read total memory access latency (Tick)
+704c692
+< system.mem_ctrls.requestorReadAvgLat::cpu.inst     26132.64                       # Per-requestor read average memory access latency ((Tick/Count))
+---
+> system.mem_ctrls.requestorReadAvgLat::cpu.inst     26154.23                       # Per-requestor read average memory access latency ((Tick/Count))
+756c744
+< system.mem_ctrls.dram.totQLat                10530750                       # Total ticks spent queuing (Tick)
+---
+> system.mem_ctrls.dram.totQLat                10542750                       # Total ticks spent queuing (Tick)
+758,759c746,747
+< system.mem_ctrls.dram.totMemAccLat           39255750                       # Total ticks spent from burst creation until serviced by the DRAM (Tick)
+< system.mem_ctrls.dram.avgQLat                 6873.86                       # Average queueing delay per DRAM burst ((Tick/Count))
+---
+> system.mem_ctrls.dram.totMemAccLat           39267750                       # Total ticks spent from burst creation until serviced by the DRAM (Tick)
+> system.mem_ctrls.dram.avgQLat                 6881.69                       # Average queueing delay per DRAM burst ((Tick/Count))
+761c749
+< system.mem_ctrls.dram.avgMemAccLat           25623.86                       # Average memory access latency per DRAM burst ((Tick/Count))
+---
+> system.mem_ctrls.dram.avgMemAccLat           25631.69                       # Average memory access latency per DRAM burst ((Tick/Count))
+862,863c850
+< system.tol2bus.transDist::ReadResp               1388                       # Transaction distribution (Count)
+< system.tol2bus.transDist::WritebackDirty            3                       # Transaction distribution (Count)
+---
+> system.tol2bus.transDist::ReadResp               1387                       # Transaction distribution (Count)
+865c852
+< system.tol2bus.transDist::CleanEvict                1                       # Transaction distribution (Count)
+---
+> system.tol2bus.transDist::CleanEvict                2                       # Transaction distribution (Count)
+869c856
+< system.tol2bus.transDist::ReadSharedReq           832                       # Transaction distribution (Count)
+---
+> system.tol2bus.transDist::ReadSharedReq           831                       # Transaction distribution (Count)
+871,872c858,859
+< system.tol2bus.pktCount_system.cpu.dcache.mem_side_port::system.l2.cpu_side_port         1958                       # Packet count per connected requestor and responder (Count)
+< system.tol2bus.pktCount::total                   3077                       # Packet count per connected requestor and responder (Count)
+---
+> system.tol2bus.pktCount_system.cpu.dcache.mem_side_port::system.l2.cpu_side_port         1954                       # Packet count per connected requestor and responder (Count)
+> system.tol2bus.pktCount::total                   3073                       # Packet count per connected requestor and responder (Count)
+874,875c861,862
+< system.tol2bus.pktSize_system.cpu.dcache.mem_side_port::system.l2.cpu_side_port        62720                       # Cumulative packet size per connected requestor and responder (Byte)
+< system.tol2bus.pktSize::total                   98752                       # Cumulative packet size per connected requestor and responder (Byte)
+---
+> system.tol2bus.pktSize_system.cpu.dcache.mem_side_port::system.l2.cpu_side_port        62464                       # Cumulative packet size per connected requestor and responder (Byte)
+> system.tol2bus.pktSize::total                   98496                       # Cumulative packet size per connected requestor and responder (Byte)
+878c865
+< system.tol2bus.snoopFanout::samples              1533                       # Request fanout histogram (Count)
+---
+> system.tol2bus.snoopFanout::samples              1532                       # Request fanout histogram (Count)
+882c869
+< system.tol2bus.snoopFanout::0                    1533    100.00%    100.00% # Request fanout histogram (Count)
+---
+> system.tol2bus.snoopFanout::0                    1532    100.00%    100.00% # Request fanout histogram (Count)
+890c877
+< system.tol2bus.snoopFanout::total                1533                       # Request fanout histogram (Count)
+---
+> system.tol2bus.snoopFanout::total                1532                       # Request fanout histogram (Count)
+892c879
+< system.tol2bus.reqLayer0.occupancy             782000                       # Layer occupancy (ticks) (Tick)
+---
+> system.tol2bus.reqLayer0.occupancy             777500                       # Layer occupancy (ticks) (Tick)
+896c883
+< system.tol2bus.respLayer1.occupancy           1465500                       # Layer occupancy (ticks) (Tick)
+---
+> system.tol2bus.respLayer1.occupancy           1464000                       # Layer occupancy (ticks) (Tick)
+898,899c885,886
+< system.tol2bus.snoop_filter.totRequests          1544                       # Total number of requests made to the snoop filter. (Count)
+< system.tol2bus.snoop_filter.hitSingleRequests           11                       # Number of requests hitting in the snoop filter with a single holder of the requested data. (Count)
+---
+> system.tol2bus.snoop_filter.totRequests          1541                       # Total number of requests made to the snoop filter. (Count)
+> system.tol2bus.snoop_filter.hitSingleRequests            9                       # Number of requests hitting in the snoop filter with a single holder of the requested data. (Count)
